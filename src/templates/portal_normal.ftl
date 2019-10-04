@@ -18,16 +18,16 @@
 
 	</video>
 
-	<div id="video-content" class="content row">
+	<div id="video-content" class="content">
 
 	   <div id="log"class="col-md-12">
 	    <div>
 	    <a href="${site_default_url}">
-	<img   src="${images_folder}/cuervo_login.png" style="background-color: transparent; max-width: 300px; padding: 15px; position: absolute; top: 5%; z-index: 2; opacity: 0.8; border-radius: 20px;"/>
+	<img   src="${images_folder}/cuervo_login.png" style="background-color: transparent; max-width: 200px; padding: 15px; position: absolute; top: 5%; z-index: 2; opacity: 0.8; border-radius: 20px;"/>
 	</a>
 	</div>
 	</div>
-	    <div id="con-login" class="d-flex text-center align-items-center col-md-12">
+	    <div id="con-login" style="display:block !important; margin-top: 6rem;" class="d-flex text-center align-items-center col-md-12">
 
 
 	 <@liferay_portlet["runtime"]
@@ -48,13 +48,13 @@
 <!-- endinject -->
 <script>
 var x = document.getElementsByClassName("portlet-title-text");
-x[0].innerHTML = "Iniciar Sesión";
+x[0].innerHTML = "Iniciar sesión";
 var username = document.getElementById("_com_liferay_login_web_portlet_LoginPortlet_login");
 username.value = "";
-username.placeholder = "Usuario:";
+username.placeholder = "Usuario";
 var password = document.getElementById("_com_liferay_login_web_portlet_LoginPortlet_password");
 password.value = "";
-password.placeholder = "Contraseña:";
+password.placeholder = "Contraseña";
 </script>
 </body>
 
