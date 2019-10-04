@@ -19,6 +19,7 @@ text-align: center;
   margin: auto;
   border-radius: 10px;
   border: solid 1px white;
+  padding: 15px 30px;
 }
 #portlet_com_liferay_login_web_portlet_LoginPortlet button{
   width: 100%;
@@ -50,4 +51,7 @@ text-align: center;
 }
 #portlet_com_liferay_login_web_portlet_LoginPortlet a[target="_self"]{
   color:white;
+}
+#portlet_com_liferay_login_web_portlet_LoginPortlet .form-group:nth-child(2){
+  margin-bottom: 2rem;
 }

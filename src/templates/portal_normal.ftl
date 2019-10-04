@@ -76,13 +76,13 @@
 <!-- endinject -->
 <script>
 var x = document.getElementsByClassName("portlet-title-text");
-x[0].innerHTML = "Iniciar Sesion";
+x[0].innerHTML = "Iniciar Sesión";
 var username = document.getElementById("_com_liferay_login_web_portlet_LoginPortlet_login");
 username.value = "";
-username.placeholder = "Usuario";
+username.placeholder = "Usuario:";
 var password = document.getElementById("_com_liferay_login_web_portlet_LoginPortlet_password");
 password.value = "";
-password.placeholder = "Contraseña";
+password.placeholder = "Contraseña:";
 </script>
 </body>
 
