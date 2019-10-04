@@ -63,7 +63,7 @@
 
 	<footer id="footer" role="contentinfo">
 		<p class="powered-by">
-			<@liferay.language key="powered-by" /> <a href="http://www.liferay.com" rel="external">Liferay berna</a>
+			<@liferay.language key="powered-by" /> <a href="http://www.liferay.com" rel="external">Liferay</a>
 		</p>
 	</footer>
 </div>
@@ -74,7 +74,16 @@
 
 <!-- inject:js -->
 <!-- endinject -->
-
+<script>
+var x = document.getElementsByClassName("portlet-title-text");
+x[0].innerHTML = "Iniciar Sesion";
+var username = document.getElementById("_com_liferay_login_web_portlet_LoginPortlet_login");
+username.value = "";
+username.placeholder = "Usuario";
+var password = document.getElementById("_com_liferay_login_web_portlet_LoginPortlet_password");
+password.value = "";
+password.placeholder = "Contraseña";
+</script>
 </body>
 
 </html>

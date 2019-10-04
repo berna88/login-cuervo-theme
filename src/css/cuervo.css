@@ -3,6 +3,7 @@ body{
 }
 #portlet_com_liferay_login_web_portlet_LoginPortlet .portlet-title-text{
 color: white;
+text-align: center;
 }
 
 #portlet_com_liferay_login_web_portlet_LoginPortlet label.control-label{
@@ -44,5 +45,9 @@ color: white;
 }
 #portlet_com_liferay_login_web_portlet_LoginPortlet input[type="checkbox"]{
   position: absolute;
-  right: -4px;
+  top: 4px;
+  right: -20px;
+}
+#portlet_com_liferay_login_web_portlet_LoginPortlet a[target="_self"]{
+  color:white;
 }
