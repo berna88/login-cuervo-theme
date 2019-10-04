@@ -80,6 +80,7 @@ x[0].innerHTML = "Iniciar Sesión";
 var username = document.getElementById("_com_liferay_login_web_portlet_LoginPortlet_login");
 username.value = "";
 username.placeholder = "Usuario:";
+username.setAttribute("class", "democlass");
 var password = document.getElementById("_com_liferay_login_web_portlet_LoginPortlet_password");
 password.value = "";
 password.placeholder = "Contraseña:";
