@@ -5,7 +5,7 @@
 	<compatibility>
 		<version>7.2.0+</version>
 	</compatibility>
-	<theme id="login-cuervo" name="LoginCuervo">
+	<theme id="login_cuervo" name="Login-Cuervo">
 		<template-extension>ftl</template-extension>
 		<portlet-decorator id="barebone" name="Barebone">
 			<portlet-decorator-css-class>portlet-barebone</portlet-decorator-css-class>
